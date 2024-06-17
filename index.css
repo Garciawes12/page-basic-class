@@ -79,7 +79,7 @@ ul li a:hover {
 
 .container-card{
     background-color: rgb(233, 0, 138);
-    margin: 0 30px 30px 30px;
+    margin: 10px 30px 30px 30px;
     border-radius: 20px;
     display: flex;
     height: 500px;
@@ -88,4 +88,33 @@ ul li a:hover {
 .container-card img{
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+}
+
+.card-text{
+    margin: 15%;
+}
+
+.card-text h2{
+    color: aqua;
+    font-size: 4em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-text h3{
+    color: aquamarine;
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-text a{
+    color: rgba(255, 255, 0, 0.519);
+    margin-top: 10px;
+    padding-top: 30px;
+    font-size: 3em;
+}
+
+
+.card-text a:hover{
+    text-decoration: underline;
+    padding: 10px;
 }
