@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0;
+}
+
+
+/* inicio Cabezera de la pagina web */
+nav {
+    margin-top: 20px;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    padding-top: 15px;
+}
+
+ul li {
+    list-style: none;
+    margin: 0 20px 20px 20px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: fantasy;
+    opacity: unset;
+    color: rgba(0, 0, 0, 0.888);
+    border-bottom: 2px solid transparent; /* Prepara un borde transparente */
+    transition: border-color 0.3s; /* Hace la transición suave */
+}
+
+ul li a:hover {
+    border-bottom-color: currentColor; /* Cambia el color del borde al color actual del texto al hacer hover */
+}
+/* final de la cabezera */
+
+/* inicio de la primera seccion de la pagina */
+.section-1{
+    display: flex;
+    background-color: rgb(21, 92, 145);
+    margin: 0 30px 0 30px;
+    border-radius: 20px;
+    height: 500px;
+}
+.section-1-div1{
+    padding: 9em 20px 10px 50px;
+}
+.section-1-div1 h1{
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: aqua;
+}
+.section-1-div1 p {
+    font-size: 1.5em;
+    font-family: cursive;
+    color: aqua;
+}
+.section-1-div2 img{
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+/* fin de la primera seccion */
+
+/* inicio de la segunda section de la pagina */
+
+.section-2{
+    background-color: black;
+}
+
+.section-2-div1 h1{
+    margin-top: 1em;
+    font-family: cursive;
+    text-align: center;
+    font-weight: bold;
+     
+}
